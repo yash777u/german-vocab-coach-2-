@@ -2330,7 +2330,7 @@ export const GENERATED_LEVELS = [
           "option_4": "but",
           "gender": "and",
           "emoji": "conjunction",
-          "keyword": "",
+          "keyword": "weil",
           "note": "question mark"
         },
         {
@@ -2470,7 +2470,7 @@ export const GENERATED_LEVELS = [
           "option_4": "but",
           "gender": "or",
           "emoji": "conjunction",
-          "keyword": "",
+          "keyword": "aber",
           "note": "crossroads"
         },
         {
@@ -3128,7 +3128,7 @@ export const GENERATED_LEVELS = [
           "option_4": "but",
           "gender": "or",
           "emoji": "conjunction",
-          "keyword": "",
+          "keyword": "aber",
           "note": "but wait"
         },
         {
@@ -3156,7 +3156,7 @@ export const GENERATED_LEVELS = [
           "option_4": "and",
           "gender": "but",
           "emoji": "conjunction",
-          "keyword": "",
+          "keyword": "ob",
           "note": "choice"
         },
         {
@@ -3212,7 +3212,7 @@ export const GENERATED_LEVELS = [
           "option_4": "but",
           "gender": "and",
           "emoji": "conjunction",
-          "keyword": "",
+          "keyword": "wenn",
           "note": "if then"
         },
         {
@@ -3394,7 +3394,7 @@ export const GENERATED_LEVELS = [
           "option_4": "will be on the exam",
           "gender": "leaves",
           "emoji": "verb",
-          "keyword": "",
+          "keyword": "drankommt",
           "note": "exam syllabus"
         },
         {
@@ -3436,7 +3436,7 @@ export const GENERATED_LEVELS = [
           "option_4": "thanks",
           "gender": "goodbye",
           "emoji": "interjection",
-          "keyword": "",
+          "keyword": "Ojemine",
           "note": "oh dear face"
         },
         {

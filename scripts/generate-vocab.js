@@ -34,18 +34,31 @@ function parseFile(file) {
       const raw = XLSX.utils.sheet_to_json(worksheet, { defval: "" });
       const words = raw.map((row) => {
         const meaning = normalizeCell(row.meaning || row.Meaning || row.translation || "");
+        const gw = normalizeCell(row.german_word || row.German || row['german word'] || "");
+        // Raw options
+        let o1 = normalizeCell(row.option_1 || row.option1 || "");
+        let o2 = normalizeCell(row.option_2 || row.option2 || "");
+        let o3 = normalizeCell(row.option_3 || row.option3 || "");
+        let o4 = normalizeCell(row.option_4 || row.option4 || "");
+
+        // Fill sensible defaults to match PRELOADED_LEVELS expectations
+        if (!o1) o1 = meaning || "Option A";
+        if (!o2) o2 = "Option B";
+        if (!o3) o3 = "Option C";
+        if (!o4) o4 = "Option D";
+
         return {
-          german_word: normalizeCell(row.german_word || row.German || row['german word'] || ""),
+          german_word: gw,
           pronunciation: normalizeCell(row.pronunciation || row.Pronunciation || row.phonetic || ""),
           meaning: meaning,
           example_sentence: normalizeCell(row.example_sentence || row.Example || row.example || ""),
-          option_1: normalizeCell(row.option_1 || row.option1 || ""),
-          option_2: normalizeCell(row.option_2 || row.option2 || ""),
-          option_3: normalizeCell(row.option_3 || row.option3 || ""),
-          option_4: normalizeCell(row.option_4 || row.option4 || ""),
+          option_1: o1,
+          option_2: o2,
+          option_3: o3,
+          option_4: o4,
           gender: normalizeCell(row.gender || row.Gender || ""),
           emoji: normalizeCell(row.emoji || row.Emoji || ""),
-          keyword: normalizeCell(row.keyword || row.Keyword || ""),
+          keyword: normalizeCell(row.keyword || row.Keyword || gw || ""),
           note: normalizeCell(row.note || row.Note || "")
         };
       }).filter((w) => w.german_word && w.meaning);
