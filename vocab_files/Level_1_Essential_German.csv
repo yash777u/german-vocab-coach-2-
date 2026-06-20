@@ -1,0 +1,111 @@
+german_word,pronunciation,meaning,example_sentence,option_1,option_2,option_3,option_4,gender,emoji,keyword,note
+bleib,blaib,stay,Bitte bleib hier.,go,stay,run,sleep,verb,,stay sign,Verb
+stehen,shtay-en,to stand,Ich stehe hier.,sit,run,stand,sleep,verb,,standing person,Verb
+denken,denk-en,to think,Ich denke viel.,think,eat,sleep,drive,verb,,thinking person,Verb
+vor,for,before / in front of,Er steht vor dem Haus.,behind,before,under,over,preposition,,in front,Preposition
+hübsch,hoobsh,pretty,Das Mädchen ist hübsch.,ugly,tall,pretty,old,adjective,,pretty girl,Adjective
+besten,bes-ten,best,Das ist am besten.,worst,better,best,small,adjective,,trophy,Adjective
+aussieht,ows-zeet,looks / appears,Er sieht gut aus.,looks,runs,eats,writes,verb,,looking,Verb
+arm,arm,poor,Der Mann ist arm.,rich,poor,tall,young,adjective,,poor person,Adjective
+echt,ekht,real / really,Das ist echt gut.,fake,real,old,new,adjective,,real stamp,Adjective
+süß,zues,sweet / cute,Der Hund ist süß.,sour,bitter,sweet,salty,adjective,,cute puppy,Adjective
+schon,shohn,already,Ich habe schon gegessen.,never,already,later,tomorrow,adverb,,finished,Adverb
+hör,hoer,listen,Bitte hör zu.,sleep,listen,run,jump,verb,,listening ear,Verb
+derzeit,dayr-tsite,currently,Ich arbeite derzeit hier.,now,currently,yesterday,soon,adverb,,calendar,Adverb
+verlagern,fer-lah-gern,to shift / move,Wir verlagern das Projekt.,stop,shift,move,sell,verb,,moving boxes,Verb
+auf,owf,on / onto,Das Buch liegt auf dem Tisch.,under,on,in,between,preposition,,on top,Preposition
+solltest,zol-test,should,Du solltest lernen.,must,should,can,will,verb,,advice,Modal Verb
+Idioten,idi-oh-ten,idiots,Die Idioten lachen laut.,teachers,friends,idiots,doctors,noun,,idiot,Noun (Plural)
+nur,noor,only,Ich habe nur einen Euro.,all,only,many,none,adverb,,only one,Adverb
+einlassen,ine-lass-en,to get involved,Er will sich nicht einlassen.,enter,leave,get involved,sleep,verb,,handshake,Verb
+einfach,ine-fakh,simple / easy,Deutsch ist einfach.,difficult,simple,expensive,long,adjective,,easy button,Adjective
+jetzt,yetst,now,Ich gehe jetzt nach Hause.,yesterday,now,tomorrow,later,adverb,,clock now,Adverb
+diese,dee-zeh,this/these,Diese Frau ist nett.,that,this/these,many,none,determiner,,pointing finger,Demonstrative Word
+super,zoo-per,great/awesome,Das ist super!,terrible,super,slow,old,adjective,,awesome,Adjective
+gekrobt,geh-krobt,crawled (likely misspelling/slang),Das Tier ist gekrobt.,flew,swam,crawled,jumped,verb,,crawling baby,Verb
+tut,tuot,does (from tun),Das tut weh.,runs,does,sleeps,eats,verb,,doing work,Verb
+leid,laidt,sorry/pain,Es tut mir leid.,happy,sorry,fast,late,adjective,,sorry face,Expression Component
+Bemerkung,beh-mer-koong,comment/remark,Das ist eine Bemerkung.,question,answer,comment,book,noun,,comment bubble,Die
+gar,gar,at all,Das ist gar nicht schwer.,always,at all,sometimes,often,adverb,,nothing,Adverb
+weil,vile,because,Ich lerne, weil ich Deutsch mag.,if,because,but,and,conjunction,,question mark,Conjunction
+Zwerg,tsverg,dwarf,Der Zwerg ist klein.,giant,child,dwarf,teacher,noun,,garden gnome,Der
+soll,zoll,should,Er soll kommen.,can,should,must,wants,verb,,checklist,Modal Verb
+sich,zikh,oneself,Er freut sich.,myself,yourself,oneself,themself,pronoun,,mirror reflection,Reflexive Pronoun
+mal,mahl,once/just,Komm mal her!,never,always,once/just,tomorrow,adverb,,one time,Particle/Adverb
+schiebe,shee-beh,push,Ich schiebe den Wagen.,pull,push,throw,catch,verb,,pushing cart,Verb
+abschneiden,ab-shny-den,to cut off,Er schneidet das Papier ab.,glue,cut off,paint,write,verb,,scissors cutting,Verb
+Größentechnisch,groe-sen-tekh-nish,size-wise,Größentechnisch passt es.,color-wise,size-wise,price-wise,time-wise,adverb,,measuring tape,Adverb
+war,var,was,Er war gestern hier.,is,was,will,be,verb,,past time,Verb (sein - past)
+unhöflich,oon-hoef-likh,rude,Das war unhöflich.,polite,rude,friendly,kind,adjective,,rude person,Adjective
+aber,ah-ber,but,Ich komme, aber später.,and,because,but,or,conjunction,,crossroads,Conjunction
+kannst,kanst,can,Kannst du helfen?,can,must,should,want,verb,,can do,Verb (können)
+laut,lowt,loud,Die Musik ist laut.,quiet,loud,slow,fast,adjective,,megaphone,Adjective
+sagen,zah-gen,to say,Bitte sag die Wahrheit.,say,run,eat,sleep,verb,,speaking,Verb
+Frechdachs,frekh-daks,cheeky person,Du kleiner Frechdachs!,genius,teacher,cheeky person,friend,noun,,cheeky kid,Der
+warte,var-te,wait,Bitte warte hier.,run,wait,jump,sleep,verb,,waiting room,Verb
+Scherz,sherts,joke,Das war nur ein Scherz.,truth,joke,book,car,noun,,laughing,Der
+über,ue-ber,about/over,Wir sprechen über Deutsch.,under,over/about,between,behind,preposition,,bridge over,Preposition
+machten,makh-ten,did/made,Was machten sie gestern?,did/made,will do,sleeped,ran,verb,,making something,Verb (machen - past)
+alle,al-le,everyone/all,Alle sind hier.,nobody,one,everyone,all,adjective,,crowd,Pronoun
+immer,im-mer,always,Er kommt immer pünktlich.,never,sometimes,always,rarely,adverb,,infinity loop,Adverb
+Witze,vit-se,jokes,Die Witze sind lustig.,books,cars,jokes,questions,noun,,comedy,Die (Plural)
+glaube,glow-be,believe/think,Ich glaube dir.,believe,forget,hate,break,verb,,believing,Verb
+definitiv,de-fi-ni-teev,definitely,Das ist definitiv richtig.,maybe,definitely,rarely,never,adverb,,thumbs up,Adverb
+verliebt,fer-leept,in love,Er ist verliebt.,angry,tired,in love,bored,adjective,,couple in love,Adjective
+Gefühl,geh-fuel,feeling/emotion,Ich habe ein gutes Gefühl.,book,feeling,car,teacher,das,,emotions,Noun
+auch,owkh,also/too,Ich komme auch mit.,never,also,because,before,adverb,,plus sign,Adverb
+mag,mahk,like,Ich mag Pizza.,hate,like,sell,break,verb,,heart like,Verb (mögen)
+wie beneidenswert,vee be-nide-ens-vert,how enviable,Das ist wie beneidenswert.,how sad,how enviable,how strange,how boring,phrase,,jealousy,Phrase
+wieso,vee-zoh,why,Wieso lachst du?,when,why,where,who,adverb,,why question,Question Word
+man,mahn,one/people,Man lernt jeden Tag.,he,she,one/people,they,pronoun,,people,Pronoun
+eigentlich,eye-gen-tlikh,actually/really,Was meinst du eigentlich?,maybe,actually,never,before,adverb,,actually,Adverb
+solch,zolkh,such,Solch ein Tag ist selten.,this,that,such,these,determiner,,example,Determiner
+emotionale,e-mo-tsyo-na-le,emotional,Wir sprechen über emotionale Themen.,logical,emotional,fast,old,adjective,,crying,Adjective
+Themen,tay-men,topics/themes,Die Themen are interessant.,cars,topics,houses,animals,die,,topics,Noun (Plural)
+Scherze,sher-tse,jokes,Seine Scherze sind lustig.,questions,jokes,books,answers,die,,jokes,Noun (Plural)
+Oberschule,oh-ber-shoo-le,secondary school,Er geht zur Oberschule.,hospital,school,market,office,die,,high school,Noun
+nehmen,nay-men,to take,Ich nehme den Stift.,give,take,throw,break,verb,,taking hand,Verb
+tatsächlich,tat-zekh-likh,actually/in fact,Das ist tatsächlich wahr.,maybe,actually,never,later,adverb,,fact check,Adverb
+dran,drahn,on it/next turn,Du bist jetzt dran.,finished,next turn,absent,late,adverb,,next turn,Adverb
+teil,tile,part,Ich nehme daran teil.,whole,part,end,start,das,,puzzle piece,Noun
+gar,gar,at all,Das ist gar nicht schwer.,always,at all,sometimes,often,adverb,,zero,Adverb
+schlimm,shlimm,bad/terrible,Das ist schlimm.,good,terrible,fast,new,adjective,,terrible accident,Adjective
+allein,ah-line,alone,Ich bin allein zu Hause.,together,alone,with friends,in group,adjective,,alone person,Adjective
+Gott,got,God,Gott helfe uns.,teacher,God,friend,king,der,,praying,Noun
+dann,dan,then,Dann gehen wir nach Hause.,now,then,yesterday,never,adverb,,next step,Adverb
+konnte,kon-te,could,Ich konnte nicht kommen.,can,could,must,should,verb,,ability,Verb (können - past)
+ganzen,gan-tsen,whole/entire,Den ganzen Tag habe ich gelernt.,partial,whole,small,short,adjective,,whole earth,Adjective
+niemand,nee-mand,nobody,Niemand war dort.,everyone,friend,nobody,teacher,pronoun,,empty room,Pronoun
+wie,vee,how/like,Wie geht es dir?,when,how,where,why,adverb,,how to,Question Word
+Entscheidung,ent-shy-dung,decision,Das war eine gute Entscheidung.,question,answer,decision,joke,die,,decision making,Noun
+kann,kan,can,Er kann Deutsch sprechen.,must,can,should,want,verb,,superhero,Verb (können)
+wünschte,vuensh-te,wished,Ich wünschte mir ein Fahrrad.,bought,wished,sold,found,verb,,shooting star,Verb
+wäre,va-re,would be,Das wäre schön.,is,was,would be,will be,verb,,dreaming,Verb (sein - Konjunktiv II)
+starker,shtar-ker,strong,Er ist ein starker Mann.,weak,strong,slow,small,adjective,,strong muscles,Adjective
+Charakter,ka-rak-ter,character/personality,Sie hat einen guten Charakter.,height,character,weight,age,der,,personality mask,Noun
+lieb,leep,kind/dear,Sie ist sehr lieb.,rude,kind,angry,lazy,adjective,,kind heart,Adjective
+aber,ah-ber,but,Ich komme, aber später.,and,because,but,or,conjunction,,but wait,Conjunction
+weiß,vice,know,Ich weiß die Antwort.,forget,know,guess,hide,verb,,knowing brain,Verb (wissen)
+ob,op,whether,Ich weiß nicht, ob er kommt.,because,whether,and,but,conjunction,,choice,Conjunction
+weg,vek,away/gone,Er ist weg.,here,away,inside,under,adverb,,running away,Adverb
+fürchterlich,fuerkh-ter-likh,terrible/awful,Das Wetter ist fürchterlich.,wonderful,terrible,funny,cheap,adjective,,awful monster,Adjective
+richtige,rikh-ti-ge,right/correct,Das ist die richtige Antwort.,wrong,correct,old,slow,adjective,,correct checkmark,Adjective
+wenn,ven,if/when,Wenn es regnet, bleibe ich zu Hause.,because,if/when,but,and,conjunction,,if then,Conjunction
+andere,an-de-re,other,Die andere Tasche ist größer.,same,other,first,last,adjective,,other path,Adjective
+denkt,denkt,thinks,Er denkt an seine Familie.,runs,eats,thinks,sleeps,verb,,thinking,Verb
+bewundernswert,be-voon-derns-vert,admirable,Das ist bewundernswert.,boring,admirable,ugly,weak,adjective,,admiring,Adjective
+bringt,bringt,brings,Er bringt das Book mit.,takes,brings,throws,loses,verb,,bringing gift,Verb
+alles,al-les,everything,Alles ist bereit.,nothing,something,everything,half,pronoun,,everything everywhere,Pronoun
+völlig,foel-likh,completely,Das ist völlig richtig.,partly,completely,sometimes,rarely,adverb,,100 percent,Adverb
+sinnlos,zin-lohs,meaningless,pointless,bad,meaningless,expensive,adjective,,person confused useless task wasted effort,pointless,
+sollten,zoll-ten,should,Wir sollten lernen.,can,should,must,want,verb,,advice,Modal Verb
+für,fuer,for,Das Geschenk ist für dich.,with,for,without,under,preposition,,gift for you,Preposition
+Prüfung,proo-fung,exam/test,Die Prüfung ist morgen.,book,exam,holiday,game,die,,exam paper,Noun
+weißt,vyst,know,Weißt du die Antwort?,forget,know,guess,hide,verb,,knowing,Verb (wissen)
+was,vas,what,Was machst du heute?,when,what,where,who,pronoun,,what question,Question Word
+drankommt,drahn-kommt,will be on the exam,Ich weiß nicht, was drankommt.,fails,arrives,will be on the exam,leaves,verb,,exam syllabus,Verb
+Englischprüfung,eng-lish-proo-fung,English exam,Die Englischprüfung ist schwer.,math exam,english exam,sports class,project,die,,English exam,Noun
+Englisch,eng-lish,English,Ich lerne Englisch.,German,English,French,Spanish,das,,English language,Noun
+Ojemine,o-yeh-mee-neh,oh dear / oh my,Ojemine, das ist schwierig!,hello,oh dear,thanks,goodbye,interjection,,oh dear face,Interjection
+Klassenraum,klas-sen-rowm,classroom,Der Klassenraum ist groß.,hospital,classroom,office,park,der,,classroom,Noun
+frühen,froo-en,early,In den frühen Morgenstunden.,late,early,slow,loud,adjective,,early morning,Adjective

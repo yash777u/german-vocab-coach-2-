@@ -1,0 +1,6 @@
+{
+  "name": "German Vocab Coach",
+  "description": "An AI-powered minimalist dark vocabulary quiz with image hints, mnemonic generators, and interactive speech synthesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
