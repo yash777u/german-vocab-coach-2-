@@ -5307,3 +5307,4 @@ export const GENERATED_LEVELS = [
     }
   }
 ] as any;
+export default GENERATED_LEVELS;

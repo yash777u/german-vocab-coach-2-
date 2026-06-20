@@ -26,13 +26,15 @@ import {
   ListFilter
 } from "lucide-react";
 import { PRELOADED_LEVELS, VocabLevel, VocabWord } from "./preloadedVocab";
-// GENERATED_LEVELS will be created at build-time by scripts/generate-vocab.js
+// GENERATED_LEVELS is produced at build-time by scripts/generate-vocab.js
+// The generator now adds a default export so we can statically import it.
 let GENERATED_LEVELS: VocabLevel[] = [];
 try {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
-  // @ts-ignore - may not exist locally until generator runs
-  const g = require("./generatedVocab");
-  GENERATED_LEVELS = g?.GENERATED_LEVELS || [];
+  // Use require to avoid static TS errors if the generator hasn't run in some flows
+  // (predev/prebuild should run the generator in normal dev/build flows).
+  // @ts-ignore
+  GENERATED_LEVELS = require("./generatedVocab").default || [];
 } catch (e) {
   GENERATED_LEVELS = [];
 }
@@ -65,8 +67,8 @@ export default function App() {
   // Start with preloaded + generated (generated takes precedence when available)
   const initialLevels = GENERATED_LEVELS.length > 0 ? [...GENERATED_LEVELS, ...PRELOADED_LEVELS.filter(p=>!GENERATED_LEVELS.some(g=>g.id===p.id))] : PRELOADED_LEVELS;
   const [levels, setLevels] = useState<VocabLevel[]>(initialLevels);
-  const [selectedLevelId, setSelectedLevelId] = useState<string>("german_verbs_adjectives");
-  const [selectedDay, setSelectedDay] = useState<string>("Day 1");
+  const [selectedLevelId, setSelectedLevelId] = useState<string>(initialLevels[0]?.id || "german_verbs_adjectives");
+  const [selectedDay, setSelectedDay] = useState<string>(Object.keys(initialLevels[0]?.days || {"Day 1":""})[0] || "Day 1");
 
   // Fetch folder-based dynamic levels from server on app load
   useEffect(() => {
