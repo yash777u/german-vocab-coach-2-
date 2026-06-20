@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "node ./scripts/generate-vocab.js",
     "dev": "esbuild server.ts --bundle --platform=node --format=esm --packages=external --outfile=dist/server.dev.js && node dist/server.dev.js",
+    "prebuild": "node ./scripts/generate-vocab.js",
     "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
     "start": "node dist/server.cjs",
     "clean": "rm -rf dist",
